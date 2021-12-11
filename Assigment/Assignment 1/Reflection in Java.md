@@ -11,8 +11,8 @@ It is also possible to instantiate new objects, invoke methods and get /set fiel
 This concept is often mixed with introspection. 
 
 The following are their definitions: 
-• Introspection is the ability of a program to examine the type or properties of an object at runtime. 
-• Reflection is the ability of a program to examine and modify the structure and behavior of an object at runtime.
+1. Introspection is the ability of a program to examine the type or properties of an object at runtime. 
+2. Reflection is the ability of a program to examine and modify the structure and behavior of an object at runtime.
 
 From their definitions, introspection is a subset of reflection. Some languages support introspection, but do not support reflection, e.g., C++.
 
@@ -29,7 +29,7 @@ Object of unknown type-->reflection-->Modify Structure and behaviour
 
 A Simple Example
 To see how reflection works, consider this simple example:
-,,,,
+```
 public class DumpMethods {
    public static void main(String args[])
       {
@@ -44,5 +44,4 @@ public class DumpMethods {
          }
       }
    }
-,,,,
-
+```
