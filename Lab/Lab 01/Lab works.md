@@ -1,6 +1,5 @@
 ## Due Date : 12/16/2021  Submitted date: 12/26/2021
-
-## Late submission due to Sports meet 
+ 
 
 # Write a program to demonstrate all three types of constructors in java
 ```
